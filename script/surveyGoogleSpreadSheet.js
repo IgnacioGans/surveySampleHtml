@@ -39,6 +39,7 @@ function sendDataToGoogleScript(name, email, age, gender, country, language, fee
     url: scriptUrl,
     type: "post",
     data: formData,
+    crossDomain: true,
     success: function (response) {
       console.log("Data sent to Google Spreadsheet successfully:", response);
     },
