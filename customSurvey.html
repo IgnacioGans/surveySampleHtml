@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Survey</title>
+  <link rel="stylesheet" href="./css/customSurvey.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Simple Survey</h1>
+    <form id="surveyForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" required>
+      <br>
+      <label for="language">Favorite Programming Language:</label>
+      <select id="language" required>
+        <option value="">--Select--</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="C++">C++</option>
+      </select>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./script/customSurvey.js"></script>
+</body>
+
+</html>
