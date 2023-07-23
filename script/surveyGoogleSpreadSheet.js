@@ -23,7 +23,7 @@ $(document).ready(function () {
 function sendDataToGoogleScript(name, email, age, gender, country, language, feedback) {
   
 
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbyybaDL38QogRkOfE3aAc3AndE6Ad6KVvc_xfJ1RNw/dev"; // Replace with your Google Apps Script URL
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbyYwHDwz94twLKDqTGYBQzGAKgIhVcfJktU1B7ksJOC_0dWt03zuLwulx53WuqWA4Ci/exec"; // Replace with your Google Apps Script URL
   const formData = {
     name: name,
     email: email,
