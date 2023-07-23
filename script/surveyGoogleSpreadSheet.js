@@ -40,6 +40,12 @@ function sendDataToGoogleScript(name, email, age, gender, country, language, fee
     type: "post",
     data: formData,
     crossDomain: true,
+    CORS: true ,
+    contentType:'application/json',
+    secure: true,
+    headers: {
+    'Access-Control-Allow-Origin': '*',
+    },
     success: function (response) {
       console.log("Data sent to Google Spreadsheet successfully:", response);
     },
